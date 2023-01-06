@@ -26,6 +26,7 @@ nav{
     position: sticky;
     background-color: rgb(146, 231, 255);
     top: 1px;
+    z-index: 100;
 }
 nav ul {
     list-style-type: none;
@@ -51,7 +52,7 @@ nav li a:hover {
     color: #890C99;
     transition: 0.5s;
 }
-/*                         NAVBAR (en en fixed avec copyright)                             */
+/*                         Footer (en en fixed avec copyright)                             */
 footer {
     width: 100%;
     position: fixed;
@@ -60,15 +61,18 @@ footer {
     text-align: center;
     color: #890C99;
 }
-/*                         Page Exercices (1                            */
-/*                General au Exercices (1) et Exercices 1               */
+/*                         Page Exercices (1, 2, 3, 4)                          */
+/*                General au Exercices (1, 2, 3, 4) et Exercices 1               */
 section {
-    width: 80%;
+    width: 60%;
     margin: auto;
     margin-bottom: 50px;
+    position: relative;
 }
 div {
     padding: 30px;
+    border:1px solid black;
+    border-radius: 5px; 
 }
 .colorGreen {
     background-color: green;
@@ -80,3 +84,18 @@ div {
     background-color: red;
 }
 /*                         Page Exercices 2                            */
+#exercice2 .colorBlue{
+    position: relative;
+    left: 100px;
+}
+#exercice2 .colorRed{
+    position: relative;
+    right: 200px;
+}
+/*                         Page Exercices                             */
+#exercice3 .colorRed{
+    margin-bottom: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
