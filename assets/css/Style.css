@@ -1,0 +1,58 @@
+
+html {
+    scroll-behavior: smooth;   
+}
+body{
+    background-color: gray;
+    margin: 0;
+}
+main {
+    background-color: aliceblue;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 75px;
+    text-align: center;
+    background-color: rgb(106, 0, 255);
+    padding-top: 25px;
+}
+h1{
+    margin: auto;
+}
+nav{
+    position: sticky;
+    background-color: rgb(146, 231, 255);
+    top: 1px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+nav li a  {
+    display: inline-block;
+    color: rgb(57, 57, 57);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2em;
+}
+nav li a:hover {
+    background-color: rgb(0, 89, 255);
+    color: #890C99;
+    transition: 0.5s;
+}
+section{
+    height: 4000px;
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.859);
+}
