@@ -8,9 +8,9 @@ body{
 }
 main {
     background-color: aliceblue;
-    position: relative;
     width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 header{
     height: 75px;
@@ -60,3 +60,23 @@ footer {
     text-align: center;
     color: #890C99;
 }
+/*                         Page Exercices (1                            */
+/*                General au Exercices (1) et Exercices 1               */
+section {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+div {
+    padding: 30px;
+}
+.colorGreen {
+    background-color: green;
+}
+.colorBlue {
+    background-color: blue;
+}
+.colorRed {
+    background-color: red;
+}
+/*                         Page Exercices 2                            */
