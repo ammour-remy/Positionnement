@@ -1,4 +1,4 @@
-
+/*                         GENERAL                            */
 html {
     scroll-behavior: smooth;   
 }
@@ -21,6 +21,7 @@ header{
 h1{
     margin: auto;
 }
+/*                         NAVBAR (en sticky avec redirection des exercices)                             */
 nav{
     position: sticky;
     background-color: rgb(146, 231, 255);
@@ -42,17 +43,20 @@ nav li a  {
     padding: 20px;
     font-size: 1.2em;
 }
+#pageActu {
+    color: red;
+}
 nav li a:hover {
     background-color: rgb(0, 89, 255);
     color: #890C99;
     transition: 0.5s;
 }
-section{
-    height: 4000px;
-}
+/*                         NAVBAR (en en fixed avec copyright)                             */
 footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.859);
+    background-color: rgba(0, 0, 0);
+    text-align: center;
+    color: #890C99;
 }
