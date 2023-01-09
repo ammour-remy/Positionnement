@@ -83,6 +83,9 @@ div {
 .colorRed {
     background-color: red;
 }
+.colorCyan {
+    background-color: cyan;
+}
 /*                         Page Exercices 2                            */
 #exercice2 .colorBlue{
     position: relative;
@@ -92,10 +95,97 @@ div {
     position: relative;
     right: 200px;
 }
-/*                         Page Exercices                             */
+/*                         Page Exercices 3                            */
 #exercice3 .colorRed{
     margin-bottom: 100px;
     position: absolute;
     left: 200px;
     top: 200px;
+}
+/*                         Page Exercices 4                            */
+#exercice4 {
+    height:  650px;
+}
+#exercice4 .colorCyan{
+    position: relative;
+}
+#exercice4 .colorGreen{
+    margin-bottom: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+#exercice4 .colorBlue{
+    position: relative;
+}
+#exercice4 .colorRed{
+    margin-bottom: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+/*                         Page Exercices 5.a                            */
+#exercice5 {
+    padding: 0;
+    border: none;
+}
+#exercice5 .colorCyan{
+    margin: auto;
+    width: 499px;
+    height: 499px;
+    position: relative;
+}
+#exercice5 .colorCyan div {
+    position: relative;
+    width: 199px;
+    height: 199px;
+}
+#exercice5 div {
+    padding: 0;
+}
+.colorYellow{
+    background-color: yellow;
+}
+#exercice5A div{
+    padding: 0;
+}
+#exercice5A .colorCyan div {
+    position: absolute;
+    width: 199px;
+    height: 199px;
+}
+#exercice5A .colorGreen{
+    top: 30px;
+    left: 30px;
+}
+#exercice5A .colorBlue{
+    top: 30px;
+    left: 270px;
+}
+#exercice5A .colorRed{
+    top: 270px;
+    left: 30px;
+}
+#exercice5A .colorYellow{
+    top: 270px;
+    left: 270px;
+}
+/*                         Page Exercices 5.b                            */
+
+
+#exercice5B .colorGreen{
+    top: 30px;
+    left: 30px;
+}
+#exercice5B .colorBlue{
+    top: -170px;
+    left: 270px;
+}
+#exercice5B .colorRed{
+    top: -130px;
+    left: 30px;
+}
+#exercice5B .colorYellow{
+    top: -330px;
+    left: 270px;
 }
