@@ -60,6 +60,7 @@ footer {
     background-color: rgba(0, 0, 0);
     text-align: center;
     color: #890C99;
+    z-index: 10;
 }
 /*                         Page Exercices (1, 2, 3, 4)                          */
 /*                General au Exercices (1, 2, 3, 4) et Exercices 1               */
@@ -124,36 +125,34 @@ div {
     left: 200px;
     top: 200px;
 }
-/*                         Page Exercices 5.a                            */
-#exercice5 {
+/*                         Page Exercices 5 et 6                         */
+#exercice5et6  {
     padding: 0;
     border: none;
 }
-#exercice5 .colorCyan{
+#exercice5et6 .colorCyan{
     margin: auto;
     width: 499px;
     height: 499px;
     position: relative;
 }
-#exercice5 .colorCyan div {
+#exercice5et6 .colorCyan div {
     position: relative;
     width: 199px;
     height: 199px;
 }
-#exercice5 div {
+#exercice5et6 div {
     padding: 0;
 }
 .colorYellow{
     background-color: yellow;
 }
-#exercice5A div{
-    padding: 0;
-}
+/*                         Page Exercices 5.a                            */
+
 #exercice5A .colorCyan div {
     position: absolute;
-    width: 199px;
-    height: 199px;
 }
+
 #exercice5A .colorGreen{
     top: 30px;
     left: 30px;
@@ -171,8 +170,6 @@ div {
     left: 270px;
 }
 /*                         Page Exercices 5.b                            */
-
-
 #exercice5B .colorGreen{
     top: 30px;
     left: 30px;
@@ -189,3 +186,60 @@ div {
     top: -330px;
     left: 270px;
 }
+/*                         Page Exercices 6                             */
+#exercice6 .colorCyan div {
+    position: absolute;
+    width: 209px;
+    height: 209px;
+}
+
+#exercice6 .colorGreen{
+    top: 30px;
+    left: 30px;
+}
+#exercice6 .colorBlue{
+    background-color: rgba(0, 0, 255, 0.733);
+    top: 48px;
+    left: 48px;
+    z-index: 5;
+}
+#exercice6 .colorRed{
+    top: 238px;
+    left: 238px;
+    z-index: 4;
+}
+#exercice6 .colorYellow{
+    top: 255px;
+    left: 255px;
+}
+/*                         Page Exercices 7                             */
+#exercice7 {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+#exercice7 div{
+    width: 100px;
+    height: 100px;
+}  
+#colorVert{
+    background-color: rgb(0, 237, 0);
+    float: left;
+}
+
+#exercice7 .colorBlue{
+    float: left;
+}
+#exercice7 #colorChoco{
+    background-color: chocolate;
+    width: 100%;
+    clear: both;
+}
+#colorGray{
+    background-color: gray;
+    float: right;
+}
+#exercice7 .colorYellow{
+    float: right;
+}
+
