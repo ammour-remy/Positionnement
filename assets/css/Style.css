@@ -62,8 +62,8 @@ footer {
     color: #890C99;
     z-index: 10;
 }
-/*                         Page Exercices (1, 2, 3, 4)                          */
-/*                General au Exercices (1, 2, 3, 4) et Exercices 1               */
+/*                                          Page Exercices                                        */
+/*                           General au Exercices et Exercices 1                                 */
 section {
     width: 60%;
     margin: auto;
@@ -86,6 +86,9 @@ div {
 }
 .colorCyan {
     background-color: cyan;
+}
+.colorYellow{
+    background-color: yellow;
 }
 /*                         Page Exercices 2                            */
 #exercice2 .colorBlue{
@@ -143,9 +146,6 @@ div {
 }
 #exercice5et6 div {
     padding: 0;
-}
-.colorYellow{
-    background-color: yellow;
 }
 /*                         Page Exercices 5.a                            */
 
